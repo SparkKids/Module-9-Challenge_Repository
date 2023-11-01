@@ -1,3 +1,4 @@
+arch/generateMarkdownbak.js
 .architect
 bootstrap.css
 bootstrap.js
@@ -6,9 +7,17 @@ bootstrap.jsonp
 build/
 classic.json
 classic.jsonp
+.DS_Store
 ext/
+indexBak.js
+indextesting.js
 modern.json
 modern.jsonp
+node_modules
+package-lock.json
+pizza.js
+README2.md
 resources/sass/.sass-cache/
 resources/.arch-internal-preview.css
 .arch-internal-preview.css
+.vscode
