@@ -1,43 +1,44 @@
+# Module 9 Challenge
 [![The MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-    # Module 9 Challenge
+# Module 9 Challenge
 
-    ## Description
+## Description
 
-    Creates a README.md based on a user's answers to questions
-
-
-      ## Table of Contents
-
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - [Contributing](#contributing)
-      - [License](#license)
-      - [Questions](#questions)
-
-      ## Installation
-
-      download index.js and utils/generateMarkdown.js from https://github.com/SparkKids/
-
-      ## Usage
-
-      node index.js
+  Creates a README.md based on a user's answers to questions
 
 
-      ## Contributing
+## Table of Contents
 
-      https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Questions](#questions)
+
+## Installation
+
+  download index.js and utils/generateMarkdown.js from https://github.com/SparkKids/
+
+## Usage
+
+  node index.js
 
 
-    ## License
+## Contributing
 
-    [The MIT License](https://opensource.org/licenses/MIT)
+  https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md
 
 
-    ## Questions
+## License
 
-    [GitHub SparkKids](https://github.com/SparkKids)
+  [The MIT License](https://opensource.org/licenses/MIT)
 
-    [stevegray@granite-mtn.com](mailto:stevegray@granite-mtn.com)
+
+## Questions
+
+[GitHub SparkKids](https://github.com/SparkKids)
+
+[stevegray@granite-mtn.com](mailto:stevegray@granite-mtn.com)
 
