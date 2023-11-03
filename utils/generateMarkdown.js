@@ -39,6 +39,7 @@ function renderLicenseLink(pageIndex) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log("Tests " + data.tests);
   //All arrays will have the same index position. Save it so we only have 
   //to look it up once.
   var arraysIndex;
@@ -83,7 +84,7 @@ function generateMarkdown(data) {
 
   ${data.contributing}
 
-  ##Tests
+  ## Tests
 
   ${data.tests}
       

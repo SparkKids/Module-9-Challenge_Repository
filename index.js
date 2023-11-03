@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const fs = require('fs');
+const readMeFile = "README.md"
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = ["Please enter your project title:",
@@ -66,7 +68,12 @@ async function init() {
                     message: questions[8],
                     name: 'email',
                 },
-            ])
+            ]);
+            var markdown = generateMarkdown(response);
+        fs.writeFile(readMeFile, markdown, (err) =>
+            err ? console.error(err) : console.log('Success!')
+        );
+
         //console.log("Markdown: " + generateMarkdown(response));
     }
     catch (error) {
